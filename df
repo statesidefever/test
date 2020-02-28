@@ -1,0 +1,75 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Code Monkey Website-development</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <section id="headercontainer">
+                <h1>WEB DEVELOPMENT</h1>
+                <div class="logo">
+                    <h6>THE CODE MONKEY</h6>
+                    <img src="images/weemonkey.png">
+                </div>
+            </section>
+            <!--END OF SECTION CONTAINER -->
+            <nav id="main-nav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="www.html">WWW</a></li>
+                <li><a href="w3c.html">W3C</a></li>
+                <li><a href="tools.html">TOOLS</a></li>
+                <li><a class="active" href="dev.html">DEVELOPMENT</a></li>
+            </nav>
+        </div>
+        <!--END OF WRAPPER-->
+
+    </header>
+    <!--END OF HEADER-->
+    <header id="banner">
+        <div class="wrapper">
+            <section id="banner-content">
+                <h6>wee text here</h6>
+                <p>BIGGER TEXT HERE</p>
+            </section>
+        </div>
+    </header>
+    <!--END OF BANNER HEADER-->
+    <div class="wrapper">
+        <section id="top-container">
+            <div class="top-items">
+                <h3>WWW</h3>
+                <br><img src="images/wwwicon.png">
+                <p>In this web page we will look at browsers, URLS and hyperlinks and supply information in the part they play and examples of each.</p>
+            </div>
+            <div class="top-items">
+                <h3>W3C</h3>
+                <br><img src="images/w3cicon.png">
+                <p>In this page we will look at the standards for html5, CSS and if anyone controls these standards or are they vendor neutral.</p>
+            </div>
+            <div class="top-items">
+                <h3>TOOLS</h3>
+                <br><img src="images/weetoolicon.png">
+                <p>In this page we will look at the tools and techniques that can be used to create a website. We will list and look at code editors, WYSIWYG, HTML checkers and client side scripting languages</p>
+            </div>
+            <div class="top-items">
+                <h3>DEVELOPMENT</h3>
+                <br><img src="images/weedevicon.png">
+                <p>In this page we will look at areas that can have an effect on how you plan your website. We will look at file types and compression, connection types and how speeds can affect what is on page</p>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper">
+        <footer>
+            <div>
+                <img src="images/weefoot.png">
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
